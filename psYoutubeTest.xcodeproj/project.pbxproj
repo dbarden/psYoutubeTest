@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0CECA8414FC531000B7F715 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CECA8314FC531000B7F715 /* UIKit.framework */; };
+		D0CECA8614FC531000B7F715 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CECA8514FC531000B7F715 /* Foundation.framework */; };
+		D0CECA8814FC531000B7F715 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CECA8714FC531000B7F715 /* CoreGraphics.framework */; };
+		D0CECA8E14FC531000B7F715 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0CECA8C14FC531000B7F715 /* InfoPlist.strings */; };
+		D0CECA9014FC531000B7F715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CECA8F14FC531000B7F715 /* main.m */; };
+		D0CECA9414FC531000B7F715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CECA9314FC531000B7F715 /* AppDelegate.m */; };
+		D0CECA9714FC531000B7F715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CECA9614FC531000B7F715 /* ViewController.m */; };
+		D0CECA9A14FC531000B7F715 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0CECA9814FC531000B7F715 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0CECA7F14FC531000B7F715 /* psYoutubeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = psYoutubeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CECA8314FC531000B7F715 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0CECA8514FC531000B7F715 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0CECA8714FC531000B7F715 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0CECA8B14FC531000B7F715 /* psYoutubeTest-Info.plist */ = {isa = PBXFileReference; path = "psYoutubeTest-Info.plist"; sourceTree = "<group>"; };
+		D0CECA8D14FC531000B7F715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0CECA8F14FC531000B7F715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0CECA9114FC531000B7F715 /* psYoutubeTest-Prefix.pch */ = {isa = PBXFileReference; path = "psYoutubeTest-Prefix.pch"; sourceTree = "<group>"; };
+		D0CECA9214FC531000B7F715 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0CECA9314FC531000B7F715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0CECA9514FC531000B7F715 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D0CECA9614FC531000B7F715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0CECA9914FC531000B7F715 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0CECA7C14FC531000B7F715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CECA8414FC531000B7F715 /* UIKit.framework in Frameworks */,
+				D0CECA8614FC531000B7F715 /* Foundation.framework in Frameworks */,
+				D0CECA8814FC531000B7F715 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0CECA7414FC530F00B7F715 = {
+			isa = PBXGroup;
+			children = (
+				D0CECA8914FC531000B7F715 /* psYoutubeTest */,
+				D0CECA8214FC531000B7F715 /* Frameworks */,
+				D0CECA8014FC531000B7F715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CECA8014FC531000B7F715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CECA7F14FC531000B7F715 /* psYoutubeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0CECA8214FC531000B7F715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0CECA8314FC531000B7F715 /* UIKit.framework */,
+				D0CECA8514FC531000B7F715 /* Foundation.framework */,
+				D0CECA8714FC531000B7F715 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0CECA8914FC531000B7F715 /* psYoutubeTest */ = {
+			isa = PBXGroup;
+			children = (
+				D0CECA9214FC531000B7F715 /* AppDelegate.h */,
+				D0CECA9314FC531000B7F715 /* AppDelegate.m */,
+				D0CECA9514FC531000B7F715 /* ViewController.h */,
+				D0CECA9614FC531000B7F715 /* ViewController.m */,
+				D0CECA9814FC531000B7F715 /* ViewController.xib */,
+				D0CECA8A14FC531000B7F715 /* Supporting Files */,
+			);
+			path = psYoutubeTest;
+			sourceTree = "<group>";
+		};
+		D0CECA8A14FC531000B7F715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CECA8B14FC531000B7F715 /* psYoutubeTest-Info.plist */,
+				D0CECA8C14FC531000B7F715 /* InfoPlist.strings */,
+				D0CECA8F14FC531000B7F715 /* main.m */,
+				D0CECA9114FC531000B7F715 /* psYoutubeTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0CECA7E14FC531000B7F715 /* psYoutubeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CECA9D14FC531000B7F715 /* Build configuration list for PBXNativeTarget "psYoutubeTest" */;
+			buildPhases = (
+				D0CECA7B14FC531000B7F715 /* Sources */,
+				D0CECA7C14FC531000B7F715 /* Frameworks */,
+				D0CECA7D14FC531000B7F715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = psYoutubeTest;
+			productName = psYoutubeTest;
+			productReference = D0CECA7F14FC531000B7F715 /* psYoutubeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0CECA7614FC530F00B7F715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D0CECA7914FC530F00B7F715 /* Build configuration list for PBXProject "psYoutubeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0CECA7414FC530F00B7F715;
+			productRefGroup = D0CECA8014FC531000B7F715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0CECA7E14FC531000B7F715 /* psYoutubeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CECA7D14FC531000B7F715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CECA8E14FC531000B7F715 /* InfoPlist.strings in Resources */,
+				D0CECA9A14FC531000B7F715 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0CECA7B14FC531000B7F715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CECA9014FC531000B7F715 /* main.m in Sources */,
+				D0CECA9414FC531000B7F715 /* AppDelegate.m in Sources */,
+				D0CECA9714FC531000B7F715 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0CECA8C14FC531000B7F715 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CECA8D14FC531000B7F715 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0CECA9814FC531000B7F715 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CECA9914FC531000B7F715 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0CECA9B14FC531000B7F715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0CECA9C14FC531000B7F715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0CECA9E14FC531000B7F715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "psYoutubeTest/psYoutubeTest-Prefix.pch";
+				INFOPLIST_FILE = "psYoutubeTest/psYoutubeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0CECA9F14FC531000B7F715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "psYoutubeTest/psYoutubeTest-Prefix.pch";
+				INFOPLIST_FILE = "psYoutubeTest/psYoutubeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0CECA7914FC530F00B7F715 /* Build configuration list for PBXProject "psYoutubeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CECA9B14FC531000B7F715 /* Debug */,
+				D0CECA9C14FC531000B7F715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CECA9D14FC531000B7F715 /* Build configuration list for PBXNativeTarget "psYoutubeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CECA9E14FC531000B7F715 /* Debug */,
+				D0CECA9F14FC531000B7F715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0CECA7614FC530F00B7F715 /* Project object */;
+}
