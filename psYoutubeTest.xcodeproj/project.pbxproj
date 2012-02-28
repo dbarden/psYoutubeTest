@@ -14,7 +14,9 @@
 		D0CECA9014FC531000B7F715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CECA8F14FC531000B7F715 /* main.m */; };
 		D0CECA9414FC531000B7F715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CECA9314FC531000B7F715 /* AppDelegate.m */; };
 		D0CECA9714FC531000B7F715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CECA9614FC531000B7F715 /* ViewController.m */; };
-		D0CECA9A14FC531000B7F715 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0CECA9814FC531000B7F715 /* ViewController.xib */; };
+		D0CECAA514FC542800B7F715 /* PSYouTubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CECAA214FC542800B7F715 /* PSYouTubeExtractor.m */; };
+		D0CECAA614FC542800B7F715 /* PSYouTubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CECAA414FC542800B7F715 /* PSYouTubeView.m */; };
+		D0CECAA814FC556400B7F715 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CECAA714FC556400B7F715 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		D0CECA8314FC531000B7F715 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0CECA8514FC531000B7F715 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0CECA8714FC531000B7F715 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D0CECA8B14FC531000B7F715 /* psYoutubeTest-Info.plist */ = {isa = PBXFileReference; path = "psYoutubeTest-Info.plist"; sourceTree = "<group>"; };
+		D0CECA8B14FC531000B7F715 /* psYoutubeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "psYoutubeTest-Info.plist"; sourceTree = "<group>"; };
 		D0CECA8D14FC531000B7F715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0CECA8F14FC531000B7F715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D0CECA9114FC531000B7F715 /* psYoutubeTest-Prefix.pch */ = {isa = PBXFileReference; path = "psYoutubeTest-Prefix.pch"; sourceTree = "<group>"; };
-		D0CECA9214FC531000B7F715 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0CECA9114FC531000B7F715 /* psYoutubeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "psYoutubeTest-Prefix.pch"; sourceTree = "<group>"; };
+		D0CECA9214FC531000B7F715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0CECA9314FC531000B7F715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0CECA9514FC531000B7F715 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D0CECA9514FC531000B7F715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D0CECA9614FC531000B7F715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D0CECA9914FC531000B7F715 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D0CECAA114FC542800B7F715 /* PSYouTubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSYouTubeExtractor.h; path = ../PSYouTubeExtractor/PSYouTubeExtractor.h; sourceTree = "<group>"; };
+		D0CECAA214FC542800B7F715 /* PSYouTubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSYouTubeExtractor.m; path = ../PSYouTubeExtractor/PSYouTubeExtractor.m; sourceTree = "<group>"; };
+		D0CECAA314FC542800B7F715 /* PSYouTubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSYouTubeView.h; path = ../PSYouTubeExtractor/PSYouTubeView.h; sourceTree = "<group>"; };
+		D0CECAA414FC542800B7F715 /* PSYouTubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSYouTubeView.m; path = ../PSYouTubeExtractor/PSYouTubeView.m; sourceTree = "<group>"; };
+		D0CECAA714FC556400B7F715 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CECAA814FC556400B7F715 /* MediaPlayer.framework in Frameworks */,
 				D0CECA8414FC531000B7F715 /* UIKit.framework in Frameworks */,
 				D0CECA8614FC531000B7F715 /* Foundation.framework in Frameworks */,
 				D0CECA8814FC531000B7F715 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +57,7 @@
 		D0CECA7414FC530F00B7F715 = {
 			isa = PBXGroup;
 			children = (
+				D0CECAA014FC540D00B7F715 /* PSYoutubeExtractor */,
 				D0CECA8914FC531000B7F715 /* psYoutubeTest */,
 				D0CECA8214FC531000B7F715 /* Frameworks */,
 				D0CECA8014FC531000B7F715 /* Products */,
@@ -67,6 +75,7 @@
 		D0CECA8214FC531000B7F715 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0CECAA714FC556400B7F715 /* MediaPlayer.framework */,
 				D0CECA8314FC531000B7F715 /* UIKit.framework */,
 				D0CECA8514FC531000B7F715 /* Foundation.framework */,
 				D0CECA8714FC531000B7F715 /* CoreGraphics.framework */,
@@ -81,7 +90,6 @@
 				D0CECA9314FC531000B7F715 /* AppDelegate.m */,
 				D0CECA9514FC531000B7F715 /* ViewController.h */,
 				D0CECA9614FC531000B7F715 /* ViewController.m */,
-				D0CECA9814FC531000B7F715 /* ViewController.xib */,
 				D0CECA8A14FC531000B7F715 /* Supporting Files */,
 			);
 			path = psYoutubeTest;
@@ -96,6 +104,17 @@
 				D0CECA9114FC531000B7F715 /* psYoutubeTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0CECAA014FC540D00B7F715 /* PSYoutubeExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				D0CECAA114FC542800B7F715 /* PSYouTubeExtractor.h */,
+				D0CECAA214FC542800B7F715 /* PSYouTubeExtractor.m */,
+				D0CECAA314FC542800B7F715 /* PSYouTubeView.h */,
+				D0CECAA414FC542800B7F715 /* PSYouTubeView.m */,
+			);
+			name = PSYoutubeExtractor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +168,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0CECA8E14FC531000B7F715 /* InfoPlist.strings in Resources */,
-				D0CECA9A14FC531000B7F715 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +181,8 @@
 				D0CECA9014FC531000B7F715 /* main.m in Sources */,
 				D0CECA9414FC531000B7F715 /* AppDelegate.m in Sources */,
 				D0CECA9714FC531000B7F715 /* ViewController.m in Sources */,
+				D0CECAA514FC542800B7F715 /* PSYouTubeExtractor.m in Sources */,
+				D0CECAA614FC542800B7F715 /* PSYouTubeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +195,6 @@
 				D0CECA8D14FC531000B7F715 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D0CECA9814FC531000B7F715 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0CECA9914FC531000B7F715 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
